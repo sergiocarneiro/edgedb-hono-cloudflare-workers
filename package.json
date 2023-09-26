@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --local --live-reload ./src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "generate": "npx @edgedb/generate edgeql-js"
+  },
+  "dependencies": {
+    "edgedb": "^1.3.6",
+    "hono": "^3.7.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "@edgedb/generate": "^0.3.3",
+    "wrangler": "^3.9.0"
+  }
+}

@@ -1,0 +1,9 @@
+name = "202309252137"
+compatibility_date = "2023-01-01"
+
+# Built-in Node.js compatibility
+# (Still throws `process is not defined` error)
+### compatibility_flags = ["nodejs_compat"]
+
+# Polyfill Node.js compatibility
+node_compat = true
